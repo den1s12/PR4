@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:PR8"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
     <Grid>
-        <TextBox x:Name="inNum" HorizontalAlignment="Left" Height="57" Margin="117,50,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="160"/>
-        <TextBlock x:Name="outNum" Margin="117,140,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="57" Width="160"/>
+        <TextBox x:Name="inNum" HorizontalAlignment="Left" Height="57" Margin="117,50,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Width="160"/>
+        <TextBlock x:Name="outNum" Margin="117,140,515,0" TextWrapping="Wrap" Text="Ответ" VerticalAlignment="Top" Height="57" Width="160"/>
         <RadioButton Content="BIN" HorizontalAlignment="Left" Margin="140,202,0,0" VerticalAlignment="Top" IsChecked="False" Checked="RadioButton_Checked"/>
-        <RadioButton Content="OCT" HorizontalAlignment="Left" Margin="140,245,0,0" VerticalAlignment="Top" IsChecked="False" Checked="RadioButton_Checked"/>
-        <RadioButton Content="HEX" HorizontalAlignment="Left" Margin="208,222,0,0" VerticalAlignment="Top" IsChecked="False" Checked="RadioButton_Checked"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="208,295,0,0" VerticalAlignment="Top" Width="252" Height="60" Click="Button_Click"/>
-       
+        <RadioButton Content="OCT" HorizontalAlignment="Left" Margin="140,272,0,0" VerticalAlignment="Top" IsChecked="False" Checked="RadioButton_Checked" RenderTransformOrigin="0.619,1.667"/>
+        <RadioButton Content="HEX" HorizontalAlignment="Left" Margin="140,237,0,0" VerticalAlignment="Top" IsChecked="False" Checked="RadioButton_Checked" RenderTransformOrigin="0.659,1.067"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="365,205,0,0" VerticalAlignment="Top" Width="243" Height="84" Click="Button_Click"/>
+
 
     </Grid>
 </Window>
