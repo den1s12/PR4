@@ -24,7 +24,8 @@
                   IsReadOnly="True"
                   ScrollViewer.CanContentScroll="True"
                   Grid.Row="1"
-                  MouseDoubleClick="ListUserDG_MouseDoubleClick">
+                  MouseDoubleClick="ListUserDG_MouseDoubleClick"
+                  Background="LightGray" FontSize="20">
             <DataGrid.ContextMenu>
                 <ContextMenu Name="UserCM">
                     <MenuItem Header="Редактирование" x:Name="EditM" Click="EditM_Click"/>

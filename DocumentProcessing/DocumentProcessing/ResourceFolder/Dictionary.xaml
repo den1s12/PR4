@@ -7,8 +7,8 @@
         <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
-    <SolidColorBrush x:Key="MainBackground" Color="#537791"/>
-    <SolidColorBrush x:Key="MainAccentuation" Color="#506795"/>
+    <SolidColorBrush x:Key="MainBackground" Color="#5b5553"/>
+    <SolidColorBrush x:Key="MainAccentuation" Color="#5b5553"/>
     <SolidColorBrush x:Key="MainAdditionalBackground" Color="#C1C0B9"/>
 
     <Style x:Key="TopBorder" TargetType="Border">
@@ -18,7 +18,7 @@
     </Style>
 
     <Style x:Key="MainBorder" TargetType="Border">
-        <Setter Property="Background" Value="White"/>
+        <Setter Property="Background" Value="LightGray"/>
         <Setter Property="CornerRadius" Value="17"/>
         <Setter Property="BorderBrush"
                 Value="{StaticResource MainBackground}"/>
@@ -84,6 +84,14 @@
         <Setter Property="Margin" Value="10"/>
     </Style>
 
+    <!--<Style TargetType="DataGrid">
+        <Setter Property="FontFamily" Value="Book Antiqua"/>
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Background" Value="Beige"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>-->
+    
     <!--<Style TargetType="DatePicker" BasedOn="{StaticResource MaterialDesignOutlinedDatePicker}">
         <Setter Property="Foreground" Value="Black"/>
         <Setter Property="BorderBrush" Value="White"/>
